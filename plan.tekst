@@ -1,0 +1,19 @@
+Oppsummering av kundebestilling.
+ 
+Meningsmåling for medarbeidere, side for avstemning og side for resultat.
+·         Skal kunne sende en lenke på mail til medarbeiderne med meningsmålingen.
+·         Medarbeider skal kunne åpne lenken, se spørsmålene og kunne svare. (hvor en ser tid og dato).
+·         Det er flere alternativer på spørsmålet.
+·         Medarbeidere skal også kunne legge inn eget alternativt svar på spørsmål i meningsmålingen.
+·         Administrator(leder) skal kunne velge om medarbeiderne kan legge inn flere alternativer eller ikke.
+·         Admin/leder skal kunne legge ut spørsmålene med flere alternativ.
+·         Kan være flere spørsmål gående samtidig.  
+·         Når medarbeiderne legger inn nye alternativ, kan de gjøre det ved å skrive inn en tekst.
+·         Svarene fra medarbeiderne er anonyme.
+·         Svarene kan gjerne vises som en avhuking/vise et par barer med antall og prosent.
+·         Heller antall en prosent, men begge er topp.
+Etter endt meningsmåling.
+·         Skal kunne avsluttes manuelt av admin/leder eller når alle har svart.
+·         Holder med en liste med prosent og antall som har svart (ikke kakediagram etc)
+·         Fint med en måte å lagre svarene på når meningsmålingen er fullført. Kunne laste ned som PDF hadde vært fint.  
+·         Det er ikke så viktig at alle skal kunne se resultatet etterpå, heller ha en PDF som leder kan laste ned og som han kan senere vise på et møte. 

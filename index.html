@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+<script>
+    const model = {
+        app: { 
+            currentPage: 'brukerside',
+            user: [
+                {
+                    id: "gud",
+                    navn: "Terje",
+                    rolle: "admin",
+            }, {
+                    id: "slave",
+                    navn: "egget",
+                    rolle: "bruker", 
+            }],
+            antallBrukere: function () {
+                for(let i = 0; i < model.app.user.length; i++) {
+                    this.antallBrukere = i + 1;
+                }
+            }
+        },
+        
+        inputFelter: {
+            brukerSide: {
+                leggeInnNyttSpm: "",
+            },
+            adminSide: {
+                leggeInnNyttSpm: "",
+            }
+        },
+            
+            adminSide: {
+                questions: [
+                    {
+                        id: "1", 
+                        tekst: "Er jorda flat?",
+                        alternativer: [
+                            "Ja", "Nei"
+                        ]
+                    },
+                    {
+                        id: "2",
+                        tekst: "Er månen laget av ost?",
+                        alternativer: [
+                            "Ja", "Nei"
+                        ]
+                    }
+                ]
+            },
+
+        
+            tidligerePolls: [
+            {
+                nr: 1, 
+                tekst: "Er jorda flat",
+                dato: "10/08/21", 
+                statistikk: [
+                    {
+                        Ja: 34,
+                        Nei: 0
+                    },
+                ],
+            }
+        ]
+            /*
+            function duSkrevNoe() {
+                for(let i = 0, i < model.inputFelter.adminSide; i++) {
+                    model.inputFelter.adminSide.question[i] = this.value = input
+                }
+            }
+            */
+        }
+        model.app.antallBrukere();
+</script>
+</body>
+</html>
+
