@@ -22,8 +22,8 @@
                     rolle: "bruker", 
             }],
             antallBrukere: function () {
-                for(let i = 0; i < model.app.user.length; i++) {
-                    this.antallBrukere = i + 1;
+                for(let i = 1; i < model.app.user.length; i++) {
+                    this.antallBrukere = i;
                 }
             }
         },
